@@ -168,6 +168,27 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.wrapper {
+  max-width: 100%;
+  max-height: 100%;
+}
+.topNav {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+}
+.topNav nav {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  align-content: flex-end;
+  vertical-align: center;
+}
+.topNav nav a {
+  text-decoration: none;
+  color: #212529;
+  font-size: 1.8rem;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -178,6 +199,31 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+header {
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+header .heading {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-content: center;
+}
+header img {
+  width: 38%;
+  justify-content: center;
+  align-content: center;
+}
+header h2 {
+  justify-content: center;
+  align-content: center;
+}
+header p {
+  width: 38%;
+  justify-content: center;
+  align-content: center;
 }
 .home .content-section {
   margin: 30px 0;
