@@ -327,7 +327,7 @@ header p {
 }
 .home .content-pick .destination {
   width: 30%;
-  margin-bottom: 30px;
+  margin-bottom: 2%;
 }
 @media (max-width: 500px) {
   .home .content-pick .destination {
@@ -359,4 +359,31 @@ header p {
     border-radius: 10px;
     color: #fff;
   }
+}
+.form {
+  display: flex;
+  max-width: 100%;
+  margin: 1% 2% 40%;
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .form {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+  }
+}
+.form input {
+  width: 100%;
+  height: 10%;
+  display: inline-block;
+  margin: 3% 0 3%;
+}
+.form .notes {
+  text-align: start;
+  height: 60%;
+}
+.form .Sub {
+  width: 50%;
+  margin-top: 5%;
 }
